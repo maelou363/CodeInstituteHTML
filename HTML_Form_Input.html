@@ -1,12 +1,13 @@
 <!-- Create a registration form in the body of the page -->
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-    </head>
-    
-    <body>
-        <form>
-            <input type="text" name="username" placeholder="Desired Username">
+
+<head>
+</head>
+
+<body>
+	<form>
+		<input type="text" name="username" placeholder="Desired Username">
             <input type="password" name="password1" placeholder="Desired Password">
             <input type="password" name="password2" placeholder="Confirm Password">
             <input type="email" name="email" placeholder="Email Address">
@@ -14,6 +15,16 @@
             <input type="date" name="birthdate" id="birthdate">
             <input type="submit" value="Register">
             <input type="reset" value="Clear Form">
+            
+            <!-- Text Area Form -->
+          <form method="post">
+          <label for="feedback">Feedback</label>
+          <br>
+          <textarea id="feedback" name="feedback" value="feedback" cols="50" rows="10" placeholder="Your Feedback">
+          </textarea>
+          <br>
+          <input type="submit">
+      </form>
         </form>
     </body>
 </html>
